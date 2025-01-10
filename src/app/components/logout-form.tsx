@@ -1,8 +1,9 @@
+import { logout } from '@/actions';
 import React from 'react';
 
 const LogoutForm = () => {
 	return (
-		<form>
+		<form action={logout}>
 			<button className="text-xl font-medium">Logout</button>
 		</form>
 	);
